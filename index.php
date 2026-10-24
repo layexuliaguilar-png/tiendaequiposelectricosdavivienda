@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agencia Cuscathan Limited | Equipos Eléctricos y Ferretería en El Salvador</title>
-    <meta name="description" content="Venta de equipos eléctricos, cables, breakers y herramientas. Descuentos exclusivos para clientes de Banco Davivienda El Salvador. Agencia Cuscathan Limited.">
+    <title>Cuscathan Digital | Asesoría en Banca Digital y Finanzas</title>
+    <meta name="description" content="Agencia de asesoría en banca digital. Te ayudamos a gestionar tus finanzas de forma segura, prevenir fraudes y optimizar tus operaciones en línea. Por Victor Hugo Rios Linares.">
     
     <!-- Fuentes de Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,8 +14,8 @@
     <!-- CSS Integrado para que no falle -->
     <style>
         :root {
-            --primary: #0A1628; /* Azul profundo */
-            --accent: #F39C12;  /* Amarillo eléctrico */
+            --primary: #0A1628; /* Azul profundo corporativo */
+            --accent: #00A8E8;  /* Azul digital brillante */
             --bg: #F8F9FA;
             --text: #333;
             --text-light: #666;
@@ -44,17 +44,17 @@
         nav a:hover { color: var(--accent); }
         
         /* Botones */
-        .btn { display: inline-block; padding: 12px 24px; background: var(--accent); color: var(--primary); font-weight: 800; border-radius: 4px; transition: 0.3s; font-family: 'Montserrat', sans-serif; border: none; cursor: pointer; text-transform: uppercase; letter-spacing: 1px; }
-        .btn:hover { background: #e67e22; transform: translateY(-2px); color: var(--white); }
+        .btn { display: inline-block; padding: 12px 24px; background: var(--accent); color: var(--white); font-weight: 800; border-radius: 4px; transition: 0.3s; font-family: 'Montserrat', sans-serif; border: none; cursor: pointer; text-transform: uppercase; letter-spacing: 1px; }
+        .btn:hover { background: #0086b3; transform: translateY(-2px); }
         .btn-outline { background: transparent; border: 2px solid var(--white); color: var(--white); }
         .btn-outline:hover { background: var(--white); color: var(--primary); }
 
         /* Hero */
-        .hero { background: linear-gradient(rgba(10, 22, 40, 0.8), rgba(10, 22, 40, 0.8)), url('https://images.unsplash.com/photo-1558402529-d2638a7023e9?auto=format&fit=crop&w=1920&q=80') center/cover; padding: 100px 20px; text-align: center; color: var(--white); }
+        .hero { background: linear-gradient(rgba(10, 22, 40, 0.85), rgba(10, 22, 40, 0.85)), url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1920&q=80') center/cover; padding: 100px 20px; text-align: center; color: var(--white); }
         .hero h2 { font-size: clamp(2rem, 5vw, 3.5rem); color: var(--white); margin-bottom: 20px; line-height: 1.2; }
         .hero p { font-size: 1.2rem; max-width: 700px; margin: 0 auto 30px; opacity: 0.9; }
 
-        /* Productos */
+        /* Servicios */
         .products { padding: 80px 0; }
         .section-title { text-align: center; font-size: 2.2rem; margin-bottom: 40px; }
         .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; }
@@ -65,14 +65,14 @@
         .card h3 { font-size: 1.3rem; margin-bottom: 10px; }
         .card p { color: var(--text-light); font-size: 0.95rem; }
 
-        /* Promociones Davivienda */
+        /* Promociones / Convenios */
         .promo-section { background: var(--white); padding: 80px 0; border-top: 1px solid #eee; border-bottom: 1px solid #eee; }
         .promo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; }
         .promo-text h2 { font-size: 2.2rem; margin-bottom: 20px; color: var(--primary); }
         .promo-text p { margin-bottom: 15px; font-size: 1.05rem; }
         .promo-box { background: var(--bg); padding: 40px; border-radius: 8px; text-align: center; border: 2px dashed var(--accent); box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
         .promo-box h3 { font-size: 1.5rem; margin-bottom: 10px; }
-        .bank-badge { background: #E30613; color: var(--white); padding: 15px; font-size: 1.4rem; font-weight: 800; border-radius: 8px; margin: 20px 0; font-family: 'Montserrat', sans-serif; }
+        .bank-badge { background: var(--primary); color: var(--white); padding: 15px; font-size: 1.4rem; font-weight: 800; border-radius: 8px; margin: 20px 0; font-family: 'Montserrat', sans-serif; }
         .small-text { font-size: 0.8rem; color: var(--text-light); margin-top: 15px; }
         .highlight-text { color: var(--accent); font-weight: 800; font-size: 1.2rem; display: block; margin-top: 15px; }
 
@@ -97,85 +97,85 @@
 
     <!-- Banner de Advertencia (Crítico para Google Ads) -->
     <div class="legal-banner">
-        <strong>Aviso Comercial:</strong> Agencia Cuscathan Limited es una ferretería de equipos eléctricos. <strong>NO somos Banco Davivienda.</strong> Las promociones son un descuento comercial para clientes de dicho banco.
+        <strong>Aviso Comercial:</strong> Cuscathan Digital es una agencia independiente de asesoría financiera. <strong>NO somos una entidad bancaria</strong> ni solicitamos contraseñas.
     </div>
 
     <!-- Header -->
     <header>
         <div class="container header-grid">
             <div class="logo">
-                <h1>Agencia <span>Cuscathan Limited</span></h1>
+                <h1>Cuscathan <span>Digital</span></h1>
             </div>
             <nav>
                 <ul>
-                    <li><a href="#productos">Equipos</a></li>
-                    <li><a href="#promociones">Promociones Davivienda</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#promociones">Convenios</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
-            <a href="#contacto" class="btn">Cotizar Ahora</a>
+            <a href="#contacto" class="btn">Asesoría Gratis</a>
         </div>
     </header>
 
     <!-- Hero -->
     <section class="hero">
         <div class="container">
-            <h2>Potencia tu hogar o negocio con los mejores equipos eléctricos</h2>
-            <p>Vendemos cables, breakers, iluminación LED y herramientas profesionales. Calidad y seguridad garantizada en El Salvador.</p>
-            <a href="#productos" class="btn btn-outline">Ver Catálogo</a>
+            <h2>Domina tus Finanzas con Asesoría en Banca Digital</h2>
+            <p>Te ayudamos a navegar el mundo de la banca en línea de forma segura. Prevención de fraudes, gestión de cuentas y optimización de tus servicios financieros.</p>
+            <a href="#servicios" class="btn btn-outline">Conocer Servicios</a>
         </div>
     </section>
 
-    <!-- Productos -->
-    <section id="productos" class="products container">
-        <h2 class="section-title">Nuestro Catálogo Eléctrico</h2>
+    <!-- Servicios (Productos) -->
+    <section id="servicios" class="products container">
+        <h2 class="section-title">Nuestras Áreas de Asesoría</h2>
         <div class="grid">
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1558486012-817176f84c6d?auto=format&fit=crop&w=600&q=80" alt="Cables y Alambres">
+                <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=600&q=80" alt="Seguridad Digital">
                 <div class="card-content">
-                    <h3>Cables y Alambres</h3>
-                    <p>Cables de cobre de alta conductividad para instalaciones residenciales e industriales seguras.</p>
+                    <h3>Prevención de Fraudes</h3>
+                    <p>Te enseñamos a proteger tus cuentas, detectar phishing y evitar robos en tus aplicaciones bancarias.</p>
                 </div>
             </div>
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=600&q=80" alt="Breakers y Tableros">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Gestión Financiera">
                 <div class="card-content">
-                    <h3>Breakers y Tableros</h3>
-                    <p>Protege tus circuitos con nuestra línea de pastillas y centros de carga de las mejores marcas.</p>
+                    <h3>Gestión de Cuentas</h3>
+                    <p>Asesoría para entender tus estados de cuenta, manejar tarjetas de crédito y organizar tus finanzas.</p>
                 </div>
             </div>
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=600&q=80" alt="Iluminación LED">
+                <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=600&q=80" alt="Trámites en Línea">
                 <div class="card-content">
-                    <h3>Iluminación LED</h3>
-                    <p>Ahorra energía con bombillos, paneles y reflectores LED de alta durabilidad y luz brillante.</p>
+                    <h3>Trámites Digitales</h3>
+                    <p>Te guiamos paso a paso para que realices tus operaciones bancarias en línea sin errores y con total seguridad.</p>
                 </div>
             </div>
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=600&q=80" alt="Herramientas Eléctricas">
+                <img src="https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?auto=format&fit=crop&w=600&q=80" alt="Educación Financiera">
                 <div class="card-content">
-                    <h3>Herramientas Eléctricas</h3>
-                    <p>Taladros, pulidoras y sierras de marcas reconocidas para los trabajos más exigentes.</p>
+                    <h3>Educación Financiera</h3>
+                    <p>Cursos y talleres para que tomes el control de tu dinero y aproveches los beneficios de la banca moderna.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Promociones -->
+    <!-- Promociones / Convenios -->
     <section id="promociones" class="promo-section">
         <div class="container promo-grid">
             <div class="promo-text">
-                <h2>Promoción Exclusiva para clientes de <em>Banco Davivienda</em></h2>
-                <p>En Agencia Cuscathan Limited valoramos a nuestros clientes. Si eres tarjetahabiente o cliente activo de <strong>Banco Davivienda El Salvador</strong>, tenemos un beneficio especial para ti.</p>
-                <p>Presenta tu tarjeta de débito o crédito Davivienda al momento de tu compra en nuestra tienda física y obtén:</p>
-                <span class="highlight-text">¡Un 10% de descuento en toda tu compra de materiales eléctricos!</span>
-                <p class="small-text">* Válido solo en compras presenciales. No aplica con otras promociones. La aprobación del descuento está sujeta a la presentación del documento oficial del banco.</p>
+                <h2>Beneficios para clientes de <em>Banco Davivienda</em></h2>
+                <p>En Cuscathan Digital valoramos a nuestros usuarios. Si eres tarjetahabiente o cliente activo de <strong>Banco Davivienda El Salvador</strong>, tenemos un beneficio especial para ti.</p>
+                <p>Agenda tu primera consulta de asesoría digital y obtén:</p>
+                <span class="highlight-text">¡Una revisión gratuita de seguridad en tus aplicaciones bancarias!</span>
+                <p class="small-text">* Válido solo para clientes que presenten su documento oficial. Este es un servicio independiente de consultoría; no somos el banco.</p>
             </div>
             <div class="promo-box">
-                <h3>Convenio de Descuento</h3>
+                <h3>Convenio de Asesoría</h3>
                 <p>Exclusivo para clientes de:</p>
                 <div class="bank-badge">Banco Davivienda</div>
-                <p>Al comprar cables, breakers y más.</p>
+                <p>Al agendar tu consulta digital.</p>
             </div>
         </div>
     </section>
@@ -185,29 +185,29 @@
         <div class="container">
             <div class="footer-grid">
                 <div>
-                    <h4>Agencia Cuscathan Limited</h4>
-                    <p>Venta de equipos eléctricos, ferretería y suministros para la construcción en El Salvador.</p>
+                    <h4>Cuscathan Digital</h4>
+                    <p>Agencia de asesoría en banca digital, finanzas personales y prevención de fraudes en El Salvador.</p>
                 </div>
                 <div>
                     <h4>Contacto</h4>
                     <p>📍 Calle Principal, Local 5, San Salvador.</p>
                     <p>📞 +503 2222 0000</p>
-                    <p>✉️ contacto@cuscathanlimited.com</p>
+                    <p>✉️ contacto@cuscathandigital.com</p>
                 </div>
                 <div>
                     <h4>Anunciante</h4>
                     <p>Responsable de la campaña:</p>
-                    <p><strong>Oscar Giovanni Florez Serna</strong></p>
+                    <p><strong>Victor Hugo Rios Linares</strong></p>
                 </div>
             </div>
             
             <div class="legal-disclaimer">
-                <p><strong>Aviso Legal Importante:</strong> Agencia Cuscathan Limited es una ferretería enfocada en la venta de equipos eléctricos. <strong>NO somos una entidad bancaria ni financiera.</strong> No solicitamos contraseñas, datos de tarjetas de crédito ni acceso a cuentas bancarias. </p>
-                <p>La promoción de descuento para clientes de Banco Davivienda es un convenio comercial de la tienda para incentivar las ventas. Banco Davivienda no es responsable de la calidad o garantía de los productos vendidos.</p>
+                <p><strong>Aviso Legal Importante:</strong> Cuscathan Digital es una agencia de asesoría y consultoría financiera independiente. <strong>NO somos una entidad bancaria ni financiera.</strong> No solicitamos contraseñas, datos de tarjetas de crédito ni acceso a cuentas bancarias. </p>
+                <p>La mención de Banco Davivienda es únicamente con fines informativos para identificar a los usuarios que pueden acceder a nuestros servicios de consultoría. No existe una relación oficial de representación.</p>
             </div>
 
             <div class="copyright">
-                <p>© 2026 Agencia Cuscathan Limited. Todos los derechos reservados.</p>
+                <p>© 2026 Cuscathan Digital. Todos los derechos reservados.</p>
             </div>
         </div>
     </footer>
